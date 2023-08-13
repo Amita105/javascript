@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing </title>
+</head>
+<body>
+    <h1 id="first">This is javascript project</h1>
+
+  <button onclick="document.getElementById('first').innerHTML='Welcome to the session'"> click me</button>
+
+  <p id="second" style="color: blue;">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis odit ab exercitationem consequatur ex ipsam aliquid nisi unde hic voluptates!
+  </p>
+  <button onclick="document.getElementById('second').style.color='deeppink'">try to change Attribute</button>
+
+  <h2 id="third">Hide this element</h2>
+
+
+  <button onclick="document.getElementById('third').style.display='none'"> hide it</button>
+
+<h3 id="fourth" style="display: none;"> show the hidden element</h3>
+
+
+<button onclick="document.getElementById('fourth').style.display='block'"> show it</button>
+
+<p id="fifth"> </p>
+<script>
+function product(a,b){
+return a*b;
+}
+let result = product(3,4)
+
+document.getElementById('fifth').innerHTML=result
+
+</script>
+
+<a href="#"> Home</a>
+<a href="#"> About</a>
+<a href="#"> contact</a>
+</body>
+</html>

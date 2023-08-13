@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic</title>
+    <script src="bind.js"></script>
+    
+</head>
+<body>
+    <h1 id="first">Today we are learning javascript</h1>
+    <button type="button" onclick='document.getElementById("first").innerHTML="Hello How are you all"'>Click me</button>
+
+<P id="second"  style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sequi provident quas, sapiente corrupti tempora ipsa dolorum dolorem est cum?</P>
+
+    <button type="button" onclick="document.getElementById('second').style.color='deeppink'"> change color </button>
+
+    <br>
+    <p id="third">I can hide elements.</p>
+
+    <button type="button" onclick="document.getElementById('third').style.display='none'">Hide Me!</button>
+
+
+    <br>
+
+    <p id="fourth" style="display: none;"> i can show html elements</p>
+    <br>
+    <button type="button" onclick="document.getElementById('fourth').style.display='block'"> i can show ele</button>
+
+    <p id="fifth">
+
+    </p>
+   <script>
+    var name ="ganesha"; // global 
+    document.getElementById("fifth").innerHTML=name
+    // console.log(z)
+    // here program--instructions---set of statements--expressions--constants, variables, operators
+
+    //defining a function
+    function Addition(){
+        //local scope
+       let x=10,y=20; 
+        z = x+y-1 // we cannot assign a value to a let variable before declaring it.
+        let z;
+     console.log(z)
+     console.log("this is the name from global"+name)
+    }
+    Addition();// calling a function
+
+    // variables are containers
+
+    var xyz;
+    console.log(xyz);
+    var marks = 89;
+    console.log(marks);
+
+   </script>
+
+</body>
+</html>

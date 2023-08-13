@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <h1>Today we are learning about changing color fontsize</h1>
+
+    <p id="first" class="one" style="color: blueviolet;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+        soluta quo corporis! Architecto magni facere incidunt excepturi suscipit atque id.</p>
+
+    <button type="button" onclick="changecolor()">click to change color</button>
+
+
+    <h3 id="second">Lorem ipsum dolor sit amet.</h3>
+    <button type="button" onclick="document.getElementById('second').style.display='none'" > click it it will hide</button>
+
+    <h3 id="third" style="display: none;">Lorem ipsum dolor sit amet.</h3>
+    <button type="button" onclick="hideelement()" > click it it will show the element</button>
+ 
+    <script>
+        function changecolor() {
+            document.getElementById("first").style.color = "orangered";
+            // document.getElementsByClassName("one").style.fontsize=150;
+        }
+        function hideelement(){
+            document.getElementById('third').style.display='block'
+        }
+        document.write(50+20)
+    </script>
+
+</body>
+
+</html>

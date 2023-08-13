@@ -1,0 +1,13 @@
+what are inline and block 
+
+sup sub button iframe list 
+
+what is the differnce id and class? selectors
+different type sof selectors 
+
+
+
+
+
+
+

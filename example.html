@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex display</title>
+
+</head>
+
+<body>
+    <h1 id="test2" style="color: blue;"> Understanding about javascript</h1>
+
+    <h2 id="test" >change it </h2>
+    <h2 id="test3">it hides on a click of a button </h2>
+    <h2 id="test4" style="display: none;">it shows on a click of a button </h2>
+
+    <button onclick="document.getElementById('test3').style.display='none'"> it hides</button>
+    <button onclick="document.getElementById('test4').style.display='block'"> it shows</button>
+    <button onclick="myFunction()">Add some text</button>
+    <button onclick="function1()"> what</button>
+    <button onclick="document.getElementById('test2').style.color='orange'">color change</button>
+    <script>
+        //inside the button when defining function directly we have to use " '' " double inside single or vise versa
+        function myFunction() {
+            document.getElementById("test").innerHTML = "i have added some content";
+        }
+        // function function2() {
+        //     document.getElementById('test3').display='none';
+        // }
+        function function1() {
+            document.write("erased everyting")
+        }
+        document.write(
+            "Hello world" + " " + "<br>"
+
+        )
+        document.write(
+            5 + 5
+        )
+
+        console.log("how are you");
+        // alert("thank you for registering")
+    </script>
+
+</body>
+
+</html>
